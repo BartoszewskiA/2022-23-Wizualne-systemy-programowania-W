@@ -1,0 +1,17 @@
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\bin\Debug\net6.0-windows\w04p05.exe
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\bin\Debug\net6.0-windows\w04p05.deps.json
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\bin\Debug\net6.0-windows\w04p05.runtimeconfig.json
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\bin\Debug\net6.0-windows\w04p05.dll
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\bin\Debug\net6.0-windows\w04p05.pdb
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.csproj.AssemblyReference.cache
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.Form1.resources
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.csproj.GenerateResource.cache
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.GeneratedMSBuildEditorConfig.editorconfig
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.AssemblyInfoInputs.cache
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.AssemblyInfo.cs
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.csproj.CoreCompileInputs.cache
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.dll
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\refint\w04p05.dll
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.pdb
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\w04p05.genruntimeconfig.cache
+D:\PROGRAMOWANIE\2022-23\2022-23 Wizualne systemy programowania W\w04p05\w04p05\obj\Debug\net6.0-windows\ref\w04p05.dll
