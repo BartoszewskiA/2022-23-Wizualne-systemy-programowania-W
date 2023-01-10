@@ -1,0 +1,30 @@
+﻿<Window x:Class="w08p01.OknoDialogowe1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:w08p01"
+        mc:Ignorable="d"
+        Title="OknoDialogowe1" Height="200" Width="300">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="3*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button x:Name="w2_button01" Content="OK"
+                IsDefault="True"
+                Grid.Column="0" Grid.Row="1" Click="w2_button01_Click"/>
+        <Button x:Name="w2_button02" Content="Cancel"
+                IsCancel="True"
+                Grid.Column="2" Grid.Row="1"/>
+        <TextBox x:Name="w2_textBox01" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="3"
+                 Padding="10px" TextWrapping="Wrap" AcceptsReturn="True"/>
+
+    </Grid>
+</Window>

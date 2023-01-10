@@ -1,0 +1,50 @@
+﻿<Window x:Class="w07p01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:w07p01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Button x:Name="button01" Content="Proste okno komunikatu"
+                Grid.Column="0" Grid.Row="0" Click="button01_Click" />
+        <Button x:Name="button02" Content="Pełne okno komunikatu"
+                Grid.Column="0" Grid.Row="1" Click="button02_Click" />
+        <Button x:Name="button03" Content="Okno z pytaniem"
+                Grid.Column="0" Grid.Row="2" Click="button03_Click" />
+        <Label x:Name="label01" Grid.Column="1" Grid.Row="2" Content="Nie udzielono odpowiedzi"
+               VerticalContentAlignment="Center"
+               HorizontalContentAlignment="Center"
+               FontSize="20pt"/>
+        <Button x:Name="button04" Content="Okno otwierania piku"
+                Grid.Column="0" Grid.Row="3" Click="button04_Click" />
+        <TextBlock x:Name="textBlock01" Grid.Column="1" Grid.Row="3"
+                   TextWrapping="Wrap" Text="Nie wybrano pliku" FontSize="17pt"/>
+        <Button x:Name="button05" Content="Okno zapisywania pliku"
+                Grid.Column="0" Grid.Row="4" Click="button05_Click" />
+        <TextBlock x:Name="textBlock02" Grid.Column="1" Grid.Row="4"
+                   TextWrapping="Wrap" Text="Nie wybrano pliku" FontSize="17pt"/>
+        <Button x:Name="button06" Content="Okno wyboru fontu"
+                Grid.Column="0" Grid.Row="5" Click="button06_Click" />
+        <TextBlock x:Name="textBlock03" Grid.Column="1" Grid.Row="5"
+                   TextWrapping="Wrap" Text="Nie wybrano fontu" FontSize="17pt"/>
+        <Button x:Name="button07" Content="Okno wyboru koloru"
+                Grid.Column="0" Grid.Row="6" Click="button07_Click" />
+        <Rectangle x:Name="probnikKoloru" Grid.Column="1" Grid.Row="6"/>
+
+    </Grid>
+</Window>

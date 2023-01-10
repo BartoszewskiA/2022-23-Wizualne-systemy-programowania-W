@@ -1,0 +1,57 @@
+﻿<Window x:Class="w10p01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:w10p01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="auto"/>
+        </Grid.RowDefinitions>
+        
+        <Menu Grid.Row="0">
+            <MenuItem Header="_Plik">
+                <MenuItem Header="Otworz" Click="MenuItem_Click"/>
+                <MenuItem Header="Zapisz" Click="MenuItem_Click_1"/>
+            </MenuItem>
+            <MenuItem Header="Start timera" Click="MenuItem_Click_3"/>
+            <MenuItem Header="Stop timera" Click="MenuItem_Click_4"/>
+        </Menu>
+        <TextBlock x:Name="textBlock01" Grid.Row="1" Text="To jest blok tekstu">
+            <TextBlock.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Pozycja 01" Click="MenuItem_Click_2"/>
+                    <MenuItem Header="Pozycja 02"/>
+                    <MenuItem Header="Pozycja 03"/>
+                </ContextMenu>
+            </TextBlock.ContextMenu>
+        </TextBlock>
+        <StatusBar Grid.Row="2" Height="20px">
+            <StatusBar.ItemsPanel>
+                <ItemsPanelTemplate>
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="auto"/>
+                            <ColumnDefinition Width="100"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </ItemsPanelTemplate>
+            </StatusBar.ItemsPanel>
+            <StatusBarItem Grid.Column="0">
+                <TextBlock Text="To jest tekst na pasku"/>
+            </StatusBarItem>
+            <StatusBarItem>
+                <Separator Grid.Column="1"/>
+            </StatusBarItem>
+            <StatusBarItem Grid.Column="2" HorizontalContentAlignment="Stretch">
+                <ProgressBar Height="20" Value="50"/>
+            </StatusBarItem>
+        </StatusBar>  
+               
+    </Grid>
+</Window>

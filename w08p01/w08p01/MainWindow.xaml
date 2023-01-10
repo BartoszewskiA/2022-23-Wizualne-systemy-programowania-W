@@ -1,0 +1,33 @@
+﻿<Window x:Class="w08p01.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:w08p01"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="170" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="2*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+       
+        <Button x:Name="button01" Content="Własne okno dialogowe"
+                Grid.Column="0" Grid.Row="0" Click="button01_Click" />
+        <Label x:Name="label01" Grid.Column="1" Grid.Row="0" Content="Nie udzielono odpowiedzi"
+               VerticalContentAlignment="Center"
+               HorizontalContentAlignment="Center"
+               FontSize="20pt"/>
+        <Button x:Name="button02" Content="Okno otwierania piku"
+                Grid.Column="0" Grid.Row="1" />
+        <TextBlock x:Name="textBlock01" Grid.Column="1" Grid.Row="1"
+                   TextWrapping="Wrap" Text="Nie wybrano pliku" FontSize="17pt"/>
+       
+     
+
+    </Grid>
+</Window>
